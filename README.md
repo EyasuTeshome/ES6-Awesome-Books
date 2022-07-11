@@ -39,9 +39,6 @@ To successfully utilize this project first of all you need to clone or download 
 
 - GitHub: [@EyasuTeshome](https://github.com/EyasuTeshome)
 
-👤 Anas
-- GitHub: [@a-laarabi](https://github.com/a-laarabi)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
