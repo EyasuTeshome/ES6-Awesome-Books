@@ -1,4 +1,4 @@
-import { getBooks } from "./save.js";
+import { getBooks } from './save.js';
 
 const addToList = (book) => {
   const list = document.querySelector('.list-container');
@@ -9,12 +9,11 @@ const addToList = (book) => {
       <button type="submit" class="delete">Remove</button>
     `;
   list.appendChild(newBook);
-}
+};
 
 const showBooks = () => {
   const books = getBooks();
   books.forEach((book) => addToList(book));
-}
+};
 
-
-export {addToList, showBooks}
+export { addToList, showBooks };
