@@ -1,1 +1,2 @@
-let name = "Eyasu";
+let appName = 'Awesome Books';
+console.log("hello", appName);
