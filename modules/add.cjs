@@ -1,4 +1,4 @@
-import { getBooks } from './save.js';
+import { getBooks } from './save.cjs';
 
 const addToList = (book) => {
   const list = document.querySelector('.list-container');
