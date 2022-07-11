@@ -1,2 +1,2 @@
-let appName = 'Awesome Books';
-console.log("hello", appName);
+const appName = 'Awesome Books';
+console.log('hello', appName);
