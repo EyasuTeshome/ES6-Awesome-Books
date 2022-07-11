@@ -1,8 +1,8 @@
 /* eslint-enable max-classes-per-file */
-import { addBook } from './save.cjs';
-import { removeBook, clearFields } from './remove.cjs';
-import { addToList, showBooks } from './add.cjs';
-import { DateTime } from './luxon.cjs';
+import { addBook } from './modules/save.mjs';
+import { removeBook, clearFields } from './modules/remove.mjs';
+import { addToList, showBooks } from './modules/add.mjs';
+import { DateTime } from './modules/luxon.mjs';
 
 class Book {
   constructor(title, author) {
