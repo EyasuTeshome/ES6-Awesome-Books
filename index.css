@@ -49,6 +49,11 @@ header h1 {
   box-shadow: 2px 5px 5px black;
 }
 
+tr {
+  display: flex;
+  flex-direction: row;
+}
+
 .list-container tr {
   display: flex;
   flex-direction: row;
@@ -79,11 +84,6 @@ header h1 {
 .author {
   padding-left: 6px;
   margin-right: auto;
-}
-
-tr {
-  display: flex;
-  flex-direction: row;
 }
 
 .between_section {

@@ -18,13 +18,12 @@ const deleteBook = (author) => {
   const books = getBooks();
 
   books.forEach((book, index) => {
-    if(book.author === author) {
+    if (book.author === author) {
       books.splice(index, 1);
     }
   });
 
   localStorage.setItem('books', JSON.stringify(books));
 };
-
 
 export { getBooks, addBook, deleteBook };

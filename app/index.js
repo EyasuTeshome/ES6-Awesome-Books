@@ -25,7 +25,6 @@ document.querySelector('.list-container').addEventListener('click', (e) => {
   deleteBook(e.target.parentElement.previousElementSibling.textContent);
 });
 
-
 const listLink = document.querySelector('.list');
 const addNew = document.querySelector('.add_new');
 const contact = document.querySelector('.contact');
