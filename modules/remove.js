@@ -1,6 +1,6 @@
 const removeBook = (el) => {
   if (el.classList.contains('delete')) {
-    el.parentElement.remove();
+    el.parentElement.parentElement.remove();
   }
 };
 

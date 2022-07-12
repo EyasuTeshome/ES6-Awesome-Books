@@ -1,12 +1,12 @@
-import { getBooks } from './save.mjs';
+import { getBooks } from './save.js';
 
 const addToList = (book) => {
   const list = document.querySelector('.list-container');
-  const newBook = document.createElement('div');
-
+  const newBook = document.createElement('tr');
   newBook.innerHTML = `
-      <p>"${book.title}" by ${book.author}</p>
-      <button type="submit" class="delete">Remove</button>
+  <td>${book.title} by </td>
+  <td class="author">${book.author}</td>
+  <td class="d-btn"><a href="#" class="delete">Remove</a></td>
     `;
   list.appendChild(newBook);
 };

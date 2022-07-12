@@ -1,8 +1,8 @@
 /* eslint-enable max-classes-per-file */
-import { addBook } from './modules/save.mjs';
-import { removeBook, clearFields } from './modules/remove.mjs';
-import { addToList, showBooks } from './modules/add.mjs';
-import { DateTime } from './modules/luxon.mjs';
+import { addBook, deleteBook } from '../modules/save.js';
+import { removeBook, clearFields } from '../modules/remove.js';
+import { addToList, showBooks } from '../modules/add.js';
+import { DateTime } from '../modules/luxon.js';
 
 class Book {
   constructor(title, author) {
@@ -22,7 +22,9 @@ document.querySelector('form').addEventListener('submit', () => {
 });
 document.querySelector('.list-container').addEventListener('click', (e) => {
   removeBook(e.target);
+  deleteBook(e.target.parentElement.previousElementSibling.textContent);
 });
+
 
 const listLink = document.querySelector('.list');
 const addNew = document.querySelector('.add_new');

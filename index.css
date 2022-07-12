@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: black;
 }
 
 body {
@@ -48,7 +49,7 @@ header h1 {
   box-shadow: 2px 5px 5px black;
 }
 
-.list-container div {
+.list-container tr {
   display: flex;
   flex-direction: row;
   padding-top: 10px;
@@ -60,7 +61,7 @@ header h1 {
   padding-left: 20px;
 }
 
-.list-container div:nth-child(odd) {
+.list-container tr:nth-child(odd) {
   background-color: rgb(205, 197, 197);
 }
 
@@ -72,6 +73,17 @@ header h1 {
   margin-right: 10px;
   height: 30px;
   min-width: 20%;
+  color: black;
+}
+
+.author {
+  padding-left: 6px;
+  margin-right: auto;
+}
+
+tr {
+  display: flex;
+  flex-direction: row;
 }
 
 .between_section {
